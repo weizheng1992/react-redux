@@ -1,0 +1,49 @@
+{
+  "name": "reading",
+  "version": "1.1.1",
+  "description": "iReading App Write In React-Native",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:attentiveness/reading.git"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "react": "~15.4.1",
+    "react-native": "^0.38.0",
+    "react-native-code-push": "^1.16.0-beta",
+    "react-native-device-info": "^0.9.7",
+    "react-native-drawer-layout": "^1.1.0",
+    "react-native-exceptions-manager": "^0.1.8",
+    "react-native-scrollable-tab-view": "^0.6.0",
+    "react-native-swiper": "^1.5.4",
+    "react-native-tab-navigator": "^0.3.3",
+    "react-native-timeago": "^0.3.0",
+    "react-native-vector-icons": "^3.0.0",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.4",
+    "redux-saga": "^0.13.0"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-jest": "^17.0.2",
+    "babel-preset-react-native": "^1.9.0",
+    "eslint": "^3.10.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1",
+    "jest": "^17.0.3",
+    "jest-react-native": "^17.0.3",
+    "react-test-renderer": "^15.4.1",
+    "redux-devtools": "^3.3.1"
+  }
+}
